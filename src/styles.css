@@ -46,3 +46,29 @@ footer{background:#f7fafb;border-top:1px solid #e2ebed;border-radius:0 0 20px 20
 .physical-details span{font-size:13px}
 .physical-details small{font-size:11px;line-height:1.5;color:#647c80}
 @media(max-width:700px){.consultation-options{grid-template-columns:1fr}.consultation-card{min-height:0}}
+
+
+.live-doctor-panel{margin-top:16px;border:1px solid #cfe4e3;border-radius:14px;padding:17px;background:#fbfefe}
+.live-doctor-heading{display:flex;align-items:center;gap:11px}
+.live-doctor-icon{display:grid;place-items:center;width:42px;height:42px;flex-shrink:0;border-radius:12px;background:#e4f3f0;color:#167b74}
+.live-doctor-heading h4{font:700 15px Manrope,sans-serif;margin:0 0 5px;color:#203b43}
+.live-doctor-heading p{display:flex;align-items:center;gap:6px;margin:0;color:#6c8186;font-size:11px}
+.status-dot{display:inline-block;width:7px;height:7px;background:#d58b35;border-radius:50%}
+.live-doctor-notice{display:flex;align-items:flex-start;gap:9px;margin:15px 0;padding:12px;border-radius:9px;background:#fff5e7;color:#81551a}
+.live-doctor-notice svg{flex-shrink:0;margin-top:2px}
+.live-doctor-notice p{font-size:11px;line-height:1.5;margin:0}
+.live-chat-transcript{display:flex;flex-direction:column;gap:10px;max-height:290px;overflow:auto;padding:12px;background:#f3f7f8;border:1px solid #e4edef;border-radius:10px}
+.empty-chat{display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center;padding:20px 10px;color:#71858a}
+.empty-chat svg{color:#4b9992}
+.empty-chat strong{font-size:12px;color:#39555c}
+.empty-chat span{font-size:11px}
+.live-chat-bubble{max-width:90%;padding:10px 12px;border-radius:10px;font-size:11px;line-height:1.5}
+.live-chat-bubble strong{font-size:10px;letter-spacing:.2px}
+.live-chat-bubble p{margin:4px 0 0;white-space:pre-wrap}
+.patient-bubble{align-self:flex-end;background:#dff2ee;color:#235b56}
+.system-bubble{align-self:flex-start;background:white;border:1px solid #e2ebed;color:#4b6269}
+.live-chat-compose{display:flex;gap:8px;margin-top:10px}
+.live-chat-compose input{margin:0!important;min-width:0}
+.live-chat-compose button{border:0;border-radius:9px;background:#176f6d;color:white;padding:0 17px;font-size:12px;font-weight:700}
+.live-doctor-panel .primary-button{margin-top:10px}
+@media(max-width:700px){.live-doctor-panel{padding:12px}.live-chat-bubble{max-width:100%}}
