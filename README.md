@@ -1,6 +1,8 @@
 # AfyaQueue Nairobi 🏥
 
-**AfyaQueue Nairobi** is a portfolio prototype for a patient-friendly hospital appointment and queue management chatbot. It demonstrates how patients could plan a visit from home, choose an insurance provider, find a relevant department, browse a sample staff directory, and prepare an appointment request.
+**AfyaQueue Nairobi** AfyaQueue Nairobi is a healthcare technology prototype designed to improve the patient journey through online appointment requests, insurance-provider selection, symptom-based department guidance, healthcare staff directory browsing, consultation preferences, and queue-management support.
+
+Built with React and Vite, the project demonstrates frontend development, user-interface design, workflow automation concepts, healthcare service digitisation, and awareness of data privacy and security.
 
 > **Demo only:** Hospital names, staff, schedules, insurance options, and availability shown in this project are illustrative. This project does not make real appointments, verify insurance, diagnose medical conditions, or issue live queue numbers.
 
@@ -56,15 +58,23 @@ afyaqueue-nairobi/
     └── styles.css
 ```
 
-## Suggested next development steps
+## Future Development Roadmap
 
-1. Add a FastAPI backend and PostgreSQL database.
-2. Add authentication and role-based access for patients, clinicians, nurses, and administrators.
-3. Integrate a hospital's actual appointment schedule and verified staff roster.
-4. Integrate insurer eligibility and pre-authorisation checks with approved provider APIs.
-5. Add queue token generation and real-time queue updates.
-6. Add consent-based SMS/email notifications.
-7. Conduct security, accessibility, privacy, and clinical-safety reviews before any real deployment.
+Backend and Database: Build a FastAPI backend with PostgreSQL for secure data storage and processing.
+
+Authentication and Access Control: Introduce secure login and role-based permissions for patients, doctors, nurses, and administrators.
+
+Hospital Integration: Connect verified healthcare staff profiles, hospital departments, and actual appointment schedules.
+
+Insurance Integration: Explore approved insurer APIs for eligibility verification and pre-authorisation.
+
+Queue Management: Implement queue token generation and real-time patient queue updates.
+
+Notifications: Add consent-based SMS and email appointment reminders.
+
+Live Consultations: Enable secure real-time doctor-patient messaging and integrate video or phone consultations.
+
+Security and Compliance: Conduct security, accessibility, privacy, and clinical-safety reviews before deployment.
 
 ## Privacy and safety
 
@@ -76,4 +86,4 @@ AfyaQueue Nairobi is a healthcare technology prototype designed to improve the p
 
 ## License
 
-This project is provided for learning and portfolio demonstration. Add a license if you want to define reuse permissions.
+This project is currently intended for learning and portfolio demonstration. A formal open-source license can be added later to define how others may use, modify, and distribute the code.
