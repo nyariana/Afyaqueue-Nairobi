@@ -80,10 +80,6 @@ Security and Compliance: Conduct security, accessibility, privacy, and clinical-
 
 Do not upload real patient information, medical records, insurance membership numbers, passwords, access tokens, or API keys. A production deployment in Kenya should be designed around applicable data-protection requirements and hospital policies. Symptom routing is informational and must not be represented as a medical diagnosis.
 
-## Portfolio description
-
-AfyaQueue Nairobi is a healthcare technology prototype designed to improve the patient journey through online appointment requests, insurance-provider selection, specialty-based department routing, staff directory browsing, and queue-management guidance. Built with React and Vite, it demonstrates frontend development, workflow design, data privacy awareness, and healthcare service digitisation.
-
 ## License
 
 This project is currently intended for learning and portfolio demonstration. A formal open-source license can be added later to define how others may use, modify, and distribute the code.
