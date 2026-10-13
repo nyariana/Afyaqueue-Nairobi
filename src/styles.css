@@ -27,3 +27,22 @@ dl{margin:18px 0}dl div{display:flex;justify-content:space-between;gap:16px;padd
 .wing-list{border:1px solid #e0e9eb;border-radius:13px;overflow:hidden;margin-top:20px}.wing-row{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;padding:15px 17px;border:0;border-bottom:1px solid #e8eeee;background:white;color:#203941}.wing-row:last-child{border-bottom:0}.wing-row:hover{background:#f4f9f8}.wing-row div{display:flex;flex-direction:column;gap:5px}.wing-row strong{font-size:13px}.wing-row span{font-size:11px;color:#71838a}.wing-row>svg{color:#7c9297;flex-shrink:0}
 footer{background:#f7fafb;border-top:1px solid #e2ebed;border-radius:0 0 20px 20px;padding:22px 30px;color:#71838a;font-size:11px;line-height:1.6}.footer-heading{display:flex;align-items:center;gap:8px;color:#38545c;font-size:12px;margin-bottom:8px}footer p{margin-bottom:10px}footer>span{font-size:10px;color:#91a0a4}
 @media(max-width:700px){.app-shell{margin:0 auto;padding:0}.hero{border-radius:0;padding:24px 20px}.tabs{padding:8px;gap:3px}.tab{flex:1;padding:10px 5px;font-size:11px;gap:5px}.panel{padding:22px 18px}.feature-row{gap:7px}.feature-row span{font-size:10px;padding:8px}.two-col,.staff-grid{grid-template-columns:1fr}.staff-card{padding:13px}.request-title{align-items:flex-start}footer{border-radius:0;padding:20px}.hero h1{margin-top:25px}.brand-name{font-size:16px}.brand-subtitle{font-size:10px}}
+
+
+.consultation-options{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:4px 0 16px}
+.consultation-card{display:flex;flex-direction:column;align-items:flex-start;gap:9px;text-align:left;padding:18px;border:1px solid #dce7e9;border-radius:13px;background:#fff;color:#213840;min-height:150px}
+.consultation-card:hover{border-color:#91c9c3;background:#f8fcfb}
+.consultation-card.selected{border:2px solid #168078;background:#edf8f5;padding:17px}
+.consultation-symbol{display:grid;place-items:center;width:39px;height:39px;border-radius:11px;background:#e3f2ef;color:#147b74}
+.consultation-card strong{font:700 14px Manrope,sans-serif}
+.consultation-card>span:last-child{font-size:12px;line-height:1.5;color:#667b81}
+.online-details{padding:15px;border:1px solid #e1ebed;background:#f8fbfb;border-radius:11px}
+.online-details label{margin-bottom:7px}
+.online-details .helper{margin:8px 0 0}
+.physical-details{display:flex;align-items:flex-start;gap:10px;padding:15px;border:1px solid #d9ece7;background:#f0f8f6;border-radius:11px;color:#176f69}
+.physical-details>svg{flex-shrink:0;margin-top:2px}
+.physical-details div{display:flex;flex-direction:column;gap:5px}
+.physical-details strong{font-size:12px}
+.physical-details span{font-size:13px}
+.physical-details small{font-size:11px;line-height:1.5;color:#647c80}
+@media(max-width:700px){.consultation-options{grid-template-columns:1fr}.consultation-card{min-height:0}}
